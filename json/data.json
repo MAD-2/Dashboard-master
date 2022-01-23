@@ -1,6 +1,8 @@
 {
     "data": [
-        {
+       
+           
+         {
             "name": "John",
             "address": "System Information",
             "city": "Tokyo",
@@ -8,14 +10,12 @@
             "last visit": "2019/02/05",
             "orders": "2100 SAR"
         },
-        {
-            "name": "Divid",
-            "address": "Cyber Scurity",
-            "city": "New York",
-            "age": "33",
-            "last visit": "2020/12/10",
-            "orders": "221 SAR"
-        },
+        { "name": "Divid",
+          "address": "Cyber Scurity",
+          "city": "New York",
+          "age": "33",
+          "last visit": "2020/12/10",
+          "orders": "221 SAR"},
         {
             "name": "Rihan",
             "address": "Accounting",
