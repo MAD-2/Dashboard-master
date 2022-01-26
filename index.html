@@ -27,7 +27,6 @@
                 <button type="button" class="btn bg-pink "><i class="fas fa-search"></i></button>
             </form>
             <div class="fas fa-user">
-               
                 <i class="fas fa-user"></i>
                 <button type="bi bi-chevron-down" class="btn btn-link"><i class="bi bi-chevron-down"></i></button>
             </div>
@@ -39,7 +38,7 @@
         <div>
             <nav>
                 <div class="sidebar" id="sidebarToggle">
-                    <a href="/products.html" class="close"></a>
+                  
                 </div>
             </nav>
         </div>
@@ -85,7 +84,7 @@
                         <div class="col">
                             <div class="card">
                                 <div class="card-header"></div>
-                                <div class="card-body"></div>
+                                <div class="card-body"><canvas id="myAreaChart" width="400" height="400"></canvas></div>
 
                             </div>
                         </div>
@@ -101,7 +100,7 @@
                     <div class="col">
                         <div class="card">
                             <div class="card-header"></div>
-                            <div class="card-body"><canvas id="myAreaChart" width="400" height="400"></canvas></div>
+                            <div class="card-body"></div>
 
                         </div>
                     </div>
@@ -128,10 +127,34 @@
                         <!-- Reports Cards -->
                         <!-- Reports Chart -->
                         <!-- Customers Table -->
+                        <div class="container">
+                        <div class="row mt-5">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">Customers</div>
+                                        <div class="card-body">
+                                            <table id="example" class="display">
+                                                <th>
+                                                    <tr>
+                                                        <th>Column 1</th>
+                                                        <th>Column 2</th>
+                                                    </tr>
+                                                </th>
+                                            </table>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </main>
-
+                </div>
                     <!-- Customers Table -->
+                
                     <footer>
+                        <div id="copyright">
+                            <p>Copyright © nrt.sa 2021</p>
+                          </div>
                     </footer>
                 </div>
             </div>
@@ -141,6 +164,8 @@
                 crossorigin="anonymous"></script>
             <script src="js/scripts.js"></script>
             <script src="js/charts.js"></script>
+            <script src="//code.tidio.co/aoto06hmvrwc9uq9tjcobx5tvaq0dwln.js" async></script>
+            <script src="./js/data.js"></script>
 </body>
 
 </html>
