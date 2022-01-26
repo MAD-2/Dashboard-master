@@ -1,8 +1,6 @@
 
 {
     "data": [
-     
-           
          {
             "name": "John",
             "address": "System Information",
@@ -320,6 +318,20 @@
             "age" : "32",
             "last visit" : "2008/12/11",
             "orders" : "136,200 SAR"
-          }    
-    ]}
-
+          } 
+    ]   
+}
+$('#example').DataTable( {
+  ajax: {
+    url: '../json/data.jos',
+    dataSrc: 'data'
+},
+  columns: [
+      { data: 'name' },
+      { data: 'address' },
+      { data: 'city' },
+      { data: 'age' },
+      { data: 'visit' },
+      { data: 'orders' }
+  ]
+} );
