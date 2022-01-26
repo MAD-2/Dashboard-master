@@ -327,8 +327,10 @@ $('#example').DataTable( {
   data: data,
   columns: [
       { data: 'name' },
-      { data: 'position' },
-      { data: 'salary' },
-      { data: 'office' }
+      { data: 'address' },
+      { data: 'city' },
+      { data: 'age' }
+      { data: 'last visit' }
+      { data: 'orders' }
   ]
 } );
