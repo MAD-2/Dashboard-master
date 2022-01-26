@@ -321,14 +321,5 @@
             "last visit" : "2008/12/11",
             "orders" : "136,200 SAR"
           }    
-    ]
-  }
-  $('#example').DataTable( {
-    data: data,
-    columns: [
-        { data: 'name' },
-        { data: 'position' },
-        { data: 'salary' },
-        { data: 'office' }
-    ]
-} );
+    ]}
+
