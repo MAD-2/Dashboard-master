@@ -1,6 +1,7 @@
+
 {
     "data": [
-       
+     
            
          {
             "name": "John",
@@ -322,3 +323,12 @@
           }    
     ]
 }
+$('#example').DataTable( {
+  data: data,
+  columns: [
+      { data: 'name' },
+      { data: 'position' },
+      { data: 'salary' },
+      { data: 'office' }
+  ]
+} );
