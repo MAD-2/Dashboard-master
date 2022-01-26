@@ -322,15 +322,13 @@
             "orders" : "136,200 SAR"
           }    
     ]
-}
-$('#example').DataTable( {
-  data: data,
-  columns: [
-      { data: 'name' },
-      { data: 'address' },
-      { data: 'city' },
-      { data: 'age' }
-      { data: 'last visit' }
-      { data: 'orders' }
-  ]
+  }
+  $('#example').DataTable( {
+    data: data,
+    columns: [
+        { data: 'name' },
+        { data: 'position' },
+        { data: 'salary' },
+        { data: 'office' }
+    ]
 } );
