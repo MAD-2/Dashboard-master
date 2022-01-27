@@ -55,6 +55,18 @@ const products = [
     price: 99.45,
     status: "Free Shopping",
   },
-];
+]; 
+
+
+document.getElementById('test1').innerHTML = products.map(user => 
+    `<div class="card m-5">
+      <div class="card-header">Name: ${user.name}</div>
+      <div>Age: ${user.description}</div>
+      <div>Place: ${user.price}</div>
+      <div>Country: ${user.status}</div>
+      <img src="${user.image}">
+    </div>
+    </div>`
+).join('')
 
 

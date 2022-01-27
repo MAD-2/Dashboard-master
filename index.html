@@ -12,7 +12,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         crossorigin="anonymous"></script>
-        
+
 </head>
 
 <body>
@@ -20,55 +20,111 @@
         <div class="container-fluid">
             <a class="navbar-brand mb-0 h1" href="#">Nrt Solution</a>
             <ul class="navbar-nav">
-            <i class="fa fa-bars m-3" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" aria-hidden="true">
-             ::before
-            </i>
-            <form class=d-flex me-2>
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="search" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button id="button-addon2" class="btn btn-outline-secondary bg-pink" type="button">
-                        <i class="fa fa-search with" aria-hidden="true">
-                            ::before
-                        </i>
-                    </button>
-                </div>
-                <i class="fa fa-bars m-3" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" aria-hidden="true">
+                <i class="fa fa-bars m-3" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                    aria-controls="offcanvasExample" aria-hidden="true">
                     ::before
                 </i>
-                <from class="d-flex me-2"></from>
-                <div class="dropdown">
-                    <a id="dropdownUser1" class="nav-link text-white text-decoration-none dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="true">
-                        <i class="fas fa-user white" aria-hidden="true">
-                            ::before
-                        </i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end text-small shadow" aria-labelledby="dropdownUser1" aria-expanded="false">
-                        <li><a class="dropdown-item" href="#">profile</a></li>
-                        <li><a class="dropdown-item" href="#">Setting</a></li>
-                        <li><hr class="deopdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                <ul class=d-flex me-2>
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="search" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button id="button-addon2" class="btn btn-outline-secondary bg-pink" type="button">
+                            <i class="fa fa-search with" aria-hidden="true">
+                                ::before
+                            </i>
+                        </button>
+                    </div>
+                    <i class="fa fa-bars m-3" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                        aria-controls="offcanvasExample" aria-hidden="true">
+                        ::before
+                    </i>
+                    <from class="d-flex me-2"></from>
+                    <div class="dropdown">
+                        <a id="dropdownUser1" class="nav-link text-white text-decoration-none dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            <i class="fas fa-user white" aria-hidden="true">
+                                ::before
+                            </i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end text-small shadow" aria-labelledby="dropdownUser1"
+                            aria-expanded="false">
+                            <li><a class="dropdown-item" href="#">profile</a></li>
+                            <li><a class="dropdown-item" href="#">Setting</a></li>
+                            <li>
+                                <hr class="deopdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
 
-                    </ul>
-                </div>
-            </form>
+                        </ul>
+                    </div>
+                </ul>
+                </form>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search for.." aria-label="Search">
-                <button type="button" class="btn bg-pink "><i class="fas fa-search"></i></button>
-            </form>
-            <div class="fas fa-user">
-                <i class="fas fa-user"></i>
-                <button type="bi bi-chevron-down" class="btn btn-link"><i class="bi bi-chevron-down"></i></button>
-            </div>
+
+        </div>
         </div>
     </nav>
+    <div class="d-flex toggle">
+        <div id="offcanvasExample"
+            class="bg-purpul offcanvas offcanvas-start d-flex flex-colum flex-shrink-0 p-3 text-white" tabindex="-1"
+            style="width: 280px;" aria-labelledby="offcanvasExampleLable1">
+            <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none" href="/">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstap">
+                        #shadow-root (closed)
+                    </use>
+                </svg>
+                <span class="fs-4">Menu</span>
+            </a>
+
+            <hr>
+            <i class="fas fa-tachometer-alt mx-2" aria-hidden="true">
+                ::before
+            </i>
+            Dashboard
+            </a>
+            <li>
+                <a class="nav-link text-white hover-overlay" href="index.html">
+                    <i class="fas fa-tachometer-alt mx-2" aria-hidden="true">
+                        ::before
+                    </i>
+                    Dashboard
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="index.html">
+                    <i class="fa fa-border-all mx-2" aria-hidden="true">
+                        ::before
+                    </i>
+                    Orders
+                </a>
+            </li>
+            <li>
+                <a class="nav-link  text-white" href="products.html">
+                    <i class="fas fa-tshirt mx-2" aria-hidden="true">
+                        ::before
+                    </i>
+                    products
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white active" href="#">
+                    ::before
+                </a>
+                Customers
+            </li>
+            </ul>
+            <hr>
+            Logged in as: <br> nrt admin
+        </div>
+    </div>
 
     <!-- Sidebar -->
     <div>
         <div>
             <nav>
                 <div class="sidebar" id="sidebarToggle">
-                  
+
                 </div>
             </nav>
         </div>
@@ -87,21 +143,21 @@
                             <div class="card-footer"><a href="#" class="link-light">View Details</a></div>
                         </div>
                     </div>
-                   
+
                     <div class="col">
                         <div class="card bg-pink">
                             <div class="card-body">Orders </br> 1890</div>
                             <div class="card-footer"><a href="#" class="link-light">View Details</a></div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card bg-pink">
                             <div class="card-body"> Visitor</br> 352</div>
                             <div class="card-footer"><a href="#" class="link-light">View Details</a></div>
                         </div>
                     </div>
-                  
+
                     <div class="col">
                         <div class="card bg-pink">
                             <div class="card-body">Conversion </br> 3.75%</div>
@@ -111,20 +167,20 @@
 
                 </div>
                 <div class="row mt-3">
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header"></div>
-                                <div class="card-body"><canvas id="myAreaChart" width="400" height="400"></canvas></div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header"></div>
+                            <div class="card-body"><canvas id="myAreaChart" width="400" height="400"></canvas></div>
 
-                            </div>
                         </div>
-                       
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-header"></div>
-                                <div class="card-body"><canvas id="myChart" width="400" height="400"></canvas></div>
-                            </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header"></div>
+                            <div class="card-body"><canvas id="myChart" width="400" height="400"></canvas></div>
                         </div>
+                    </div>
                 </div>
                 <div class="row mt-3">
                     <div class="col">
@@ -134,14 +190,14 @@
 
                         </div>
                     </div>
-                   
+
                     <div class="col">
                         <div class="card">
                             <div class="card-header"></div>
                             <div class="card-body"></div>
                         </div>
                     </div>
-            </div>
+                </div>
                 <div class="row mt-3">
                     <div class="col">
                         <div class="card">
@@ -158,10 +214,10 @@
                         <!-- Reports Chart -->
                         <!-- Customers Table -->
                         <div class="container">
-                        <div class="row mt-5">
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-header">Customers</div>
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header">Customers</div>
                                         <div class="card-body">
                                             <table id="example" class="display">
                                                 <thead>
@@ -176,30 +232,30 @@
                                                 </thead>
                                             </table>
                                         </div>
-                                    
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </main>
                 </div>
-                    <!-- Customers Table -->
-                
-                    <footer>
-                        <div id="copyright">
-                            <p>Copyright © nrt.sa 2021</p>
-                          </div>
-                    </footer>
-                </div>
+                <!-- Customers Table -->
+
+                <footer>
+                    <div id="copyright">
+                        <p>Copyright © nrt.sa 2021</p>
+                    </div>
+                </footer>
             </div>
-            <!-- JavaScript Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
-            <script src="js/scripts.js"></script>
-            <script src="js/charts.js"></script>
-            <script src="//code.tidio.co/aoto06hmvrwc9uq9tjcobx5tvaq0dwln.js" async></script>
-            <script src="./js/data.js"></script>
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/charts.js"></script>
+        <script src="//code.tidio.co/aoto06hmvrwc9uq9tjcobx5tvaq0dwln.js" async></script>
+        <script src="./js/data.js"></script>
 </body>
 
 </html>
